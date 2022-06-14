@@ -3,7 +3,7 @@
     "title": { "string": {} },
     "content" : {  "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
     "featured_image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
-    "excerpt" : {  "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "excerpt" : {  "loremSentences": { "minLength": 100, "maxLength": 200 } },
      "createdAt": {
     "dateTime": {
       "min": "2022-01-01T00:00:00Z",
@@ -17,7 +17,7 @@
       "hasMany": "Tag"
     }
   },
-  
+ 
   "Comment": {
     "body": { "string": {} },
     "post": {
@@ -30,5 +30,10 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
+   "Author":{
+    "name": {    "regexp": "[A-Z][a-z]{5,10}"   },
+    "email": { "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } },
+    "bio": "loremSentences": { "minLength": 50, "maxLength": 200 }    
+  },
 }
