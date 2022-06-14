@@ -12,6 +12,9 @@
   },
     "comments": {
       "hasMany": "Comment"
+    },
+    "tags":{
+      "hasMany": "Tag"
     }
   },
   
