@@ -21,8 +21,6 @@
       "belongsTo": "Post"
     }
   },
-  "tag": {
-    "title" : { "string" : {} },
-  },
+  
   
 }
