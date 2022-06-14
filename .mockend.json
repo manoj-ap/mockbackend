@@ -11,7 +11,7 @@
     }
   },
     "author":{
-     "Author":{}
+     "author": { "Author" : {} }
     },
     
     "comments": {
