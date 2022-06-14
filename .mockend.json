@@ -20,5 +20,9 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "tag" :{
+    "title" : {"string" : {}}
   }
+  
 }
