@@ -32,8 +32,13 @@
     }
   },
   
-  "Author": { "firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
-}
+   "Author": {
+    "title": { "string": ["Vuejs","Editorjs"] },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
+   
   
     
   
