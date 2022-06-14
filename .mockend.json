@@ -22,7 +22,7 @@
     }
   },
   "tag": {
-    "title" : { "string" : {} }
+    "title" : { "string" : {} },
   },
   
 }
