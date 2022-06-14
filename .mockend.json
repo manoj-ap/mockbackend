@@ -14,10 +14,10 @@
        "hasMany": "Author"
     },
     
-    "comments": {
+    "userComments": {
       "hasMany": "Comment"
     },
-    "tags":{
+    "postTags":{
       "hasMany": "Tag"
     }
   },
