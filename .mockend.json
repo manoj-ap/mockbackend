@@ -14,9 +14,7 @@
       "hasMany": "Comment"
     }
   },
-  "tag" : {
-   "title" : {  "loremWord": {}},    
-  },
+  
   "Comment": {
     "body": { "string": {} },
     "post": {
