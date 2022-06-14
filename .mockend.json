@@ -4,7 +4,7 @@
     "content" : {  "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
     "featured_image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
     "excerpt" : {  "loremWords": { "minLength": 5, "maxLength": 20 } },
-     "createdAt: {
+     "createdAt": {
     "dateTime": {
       "min": "2022-01-01T00:00:00Z",
       "max": "2023-12-31T23:59:59Z"
