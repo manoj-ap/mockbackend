@@ -11,7 +11,7 @@
     }
   },
      "author": {
-      "auth": {"Author": {}}
+      "auth": {"string": {}}
     },
     
     "comments": {
