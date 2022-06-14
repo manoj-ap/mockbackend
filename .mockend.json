@@ -33,7 +33,7 @@
   },
   
    "Author": {
-    "title": { "string": ["Vuejs","Editorjs"] },
+    "firstname": { "regexp": "[A-Z][a-z]{5,10}" },
     "post": {
       "belongsTo": "Post"
     }
