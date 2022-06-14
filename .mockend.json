@@ -22,7 +22,7 @@
   },
  
   "Comment": {
-    "body": { "string": {} },
+    "body": { "string":  "loremWords": { "minLength": 5, "maxLength": 20 } },
     "postComments": {
       "belongsTo": "Post"
     }
