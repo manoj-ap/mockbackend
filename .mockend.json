@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": { "string": {} },
-    "content" : { "string" :{} },
+    "content" : {  "loremWords": { "minLength": 5, "maxLength": 20 } },
     "comments": {
       "hasMany": "Comment"
     }
