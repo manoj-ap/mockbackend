@@ -22,7 +22,7 @@
   },
  
   "Comment": {
-    "body": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "body": {   "loremSentences": { "minLength": 100, "maxLength": 200 } },
     "postComments": {
       "belongsTo": "Post"
     }
