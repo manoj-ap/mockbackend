@@ -30,6 +30,6 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
+  }
 
 }
