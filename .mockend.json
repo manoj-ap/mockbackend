@@ -2,8 +2,8 @@
   "Post": {
     "title": { "string": {} },
     "content" : {  "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
-    "featured_image":{ "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
-    "excerpt" : {  "loremWords": { "minLength": 5, "maxLength": 20 } }
+    "featured_image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
+    "excerpt" : {  "loremWords": { "minLength": 5, "maxLength": 20 } },
     "comments": {
       "hasMany": "Comment"
     }
