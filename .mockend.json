@@ -23,7 +23,7 @@
   },
   
   "Tag": {
-    "title": { "string": ['Vuejs','Editorjs'] },
+    "title": { "string": ["Vuejs","Editorjs"] },
     "post": {
       "belongsTo": "Post"
     }
