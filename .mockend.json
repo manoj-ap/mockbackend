@@ -10,7 +10,7 @@
       "max": "2023-12-31T23:59:59Z"
     }
   },
-  "postAuthor" :{ "Author": {}},
+  "postAuthor" :{ "belognTo": "Author"},
   "userComments": {
      "hasMany": "Comment"
    },
@@ -41,7 +41,7 @@
    "avatar": {
     "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}" },   
     "authorPosts": {
-      "belongsTo": "Post"
+      "hasMany": "Post"
     }
   }
 }
