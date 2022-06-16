@@ -10,7 +10,7 @@
       "max": "2023-12-31T23:59:59Z"
     }
   },
-  "postAuthor" :{ "string": {}},
+  "postAuthor" :{ "Author": {}},
   "userComments": {
      "hasMany": "Comment"
    },
