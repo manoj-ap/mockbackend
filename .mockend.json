@@ -11,7 +11,7 @@
     }
   },
   "author": {
-       "hasMany": "Author"
+       "Author": {}
    },
   "userComments": {
      "hasMany": "Comment"
