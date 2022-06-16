@@ -11,9 +11,7 @@
     }
   },
   "postAuthor":{
-  "string":{},
-    "avatar": {
-    "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}" }
+  "string":{},   
   },
   "userComments": {
      "hasMany": "Comment"
