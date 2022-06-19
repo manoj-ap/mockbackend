@@ -18,7 +18,7 @@
       ]
     },
   "postAuthor":{
-   "Author" :{}
+   "string" :{}
   },
   "userComments": {
      "hasMany": "Comment"
