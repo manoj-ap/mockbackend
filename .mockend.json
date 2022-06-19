@@ -31,7 +31,11 @@
       "belongsTo": "Post"
     }
   },
-  
+  "Tag":{"caption":{"string": ["JS","TS","VanilaJS","Aangular","Reactjs","Solidjs","Vuejs","Nextjs","Nuxtjs"] },
+        "TagPost":{
+        "belongsTo":"Post"
+        }
+        },
    "Author": {
     "firstname": { "string":  ["Anie Doe","Brue Lee","Kathie","Leia Philip"] },
      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } ,
