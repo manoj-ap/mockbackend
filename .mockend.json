@@ -11,7 +11,7 @@
     }
   },
     "tags": {
-       "hasMany":"Tag"
+         "loremWord": {}
     },
   "postAuthor":{
    "string" : ["Anie Doe","Brue Lee","Kathie","Leia Philip"] 
