@@ -17,7 +17,7 @@
      "hasMany": "Comment"
    },
    "postTags":{
-      "hasMany": "Tag"
+      "Tag": [{ id:"1",title:"Reactjs"}]
     }
   },
  
