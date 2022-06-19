@@ -18,7 +18,7 @@
       ]
     },
    "postAuthor":{
-      "string": ["Anie Doe","Brue Lee","Kathie","Leia Philip"]
+      "Author":  {}
    },
   "userComments": {
      "hasMany": "Comment"
