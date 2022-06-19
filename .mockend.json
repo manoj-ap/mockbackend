@@ -15,10 +15,7 @@
    },
   "userComments": {
      "hasMany": "Comment"
-   },
-   "postTags":{
-      "Tag": [{ "id":"1","title":"Reactjs"}]
-    }
+   }   
   },
  
   "Comment": {
