@@ -10,8 +10,8 @@
       "max": "2023-12-31T23:59:59Z"
     }
   },
-    "tags": {
-         "loremWord": [{}]
+    "tag": {
+         "string":  ["JS","TS","VanilaJS","Aangular","Reactjs","Solidjs","Vuejs","Nextjs","Nuxtjs"]
     },
   "postAuthor":{
    "string" : ["Anie Doe","Brue Lee","Kathie","Leia Philip"] 
