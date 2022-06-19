@@ -33,7 +33,7 @@
   },
   
    "Author": {
-    "firstname": { "regexp": "[A-Z][a-z]{5,10}" },
+    "firstname": { "string":  ["Anie Doe","Brue Lee","Kathie","Leia Philip"] },
      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } ,
      "bio":{
     "loremSentences": { "minLength": 100, "maxLength": 200 } },
