@@ -1,7 +1,7 @@
 {
   "Doc": {
   "section": { "string": ["Home","Get Started","Components", "React","Solidjs"]},
-  "body":{"string":{} }
+  "body":{ "loremParagraphs": { "minLength": 200, "maxLength": 500 } }
   },
   "Post": {
     "title": { "string": {} },
