@@ -1,8 +1,7 @@
 {
   "Doc":{
-  "section":{"string":"Home"},
-  "body":{"string":"This is Home"}          
-   }
+  "section":{"string":{},
+  "body":{"string":{} }
   },
   "Post": {
     "title": { "string": {} },
