@@ -1,6 +1,6 @@
 {
   "Doc": {
-  "section": { "string": ["Home","Get Started","Components","Vue","React","Solidjs"]},
+  "section": { "string": ["Home","Get Started","Components", "React","Solidjs"]},
   "body":{"string":{} }
   },
   "Post": {
