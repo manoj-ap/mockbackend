@@ -1,4 +1,8 @@
 {
+  "Doc":{
+  "title":{"string":{}
+   }
+  },
   "Post": {
     "title": { "string": {} },
     "content" : {  "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
